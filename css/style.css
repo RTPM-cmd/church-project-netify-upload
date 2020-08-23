@@ -281,6 +281,13 @@ body {
         font-size: 0.8rem;
         color: brown;
     }
+	
+    /* full screen banner brightness reduce */
+    .masthead {
+        -webkit-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+        filter: brightness(100%);
+    }
 
     /* church schedule text */
     .outer-scheduled-header h4 {
